@@ -1,0 +1,347 @@
+.container-fluid
+{
+	background-color: #ffffff;
+}
+
+
+.bg
+
+.texto-sombra
+{
+	text-shadow: 0 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+#juegos
+{
+	background: rgb(255, 255, 255);
+	/*background: 
+					Linear-gradient(0deg, #10ade1d9 0%,
+										rgba(255,255,255,1)70%);*/
+	background-repeat: repeat-x;
+	background-size: 75%;
+	margin-top: -20px;
+	
+}
+
+.card-border
+{
+	border: solid 15px white;
+	border-radius: 20px;
+	transition: all ease-out 0.2s;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+	height: 100%;
+}
+
+.card-border:hover
+{
+	transform: scale(1.05);
+}
+
+.productos{
+	text-align: center;
+	color: #17ace1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700; /* Extra Bold */
+}
+
+
+
+.texto-productos{
+	padding: 10px;
+	
+}
+
+.h3{
+	text-align: center;
+	color: #4aaf50;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+  	font-weight: 700;  /*Medium */
+}
+
+/*Boton de wsp advertencia*/
+
+.swal2-popup {
+  border-radius: 20px !important; /* controla qué tan redondeado se ve */
+  padding: 1.5rem !important;     /* un poco más de aire */
+}
+
+.swal2-title {
+  font-weight: 600;
+}
+
+.swal2-confirm {
+  border-radius: 12px !important; /* botón también redondeado */
+  padding: 0.6rem 1.5rem;
+}
+
+.swal2-close:hover {
+  color: #c0392b !important;   /* rojo más oscuro al pasar el mouse */
+}
+
+/*Boton de wsp advertencia*/
+
+#separador-Amiibo{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+#separador-Amiibo .content{
+	background: #ffffff;
+	width: 110%;
+	/* height: 100px; */
+	margin-left: -5%;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+#separador-Amiibo-footer{
+	height: 20vw;
+}
+
+#amiibos{
+	background: #ffffff;
+	background-repeat: no-repeat, repeat;
+	background-position: bottom center, center center;
+	background-size: 100%, auto;
+}
+
+.amiibo{
+	cursor: pointer;
+	transition: all ease-out 0.2s;
+}
+
+.amiibo:hover{
+	transform: scale(1.05);
+}
+
+.amiibo-name{
+	background-color: rgb(0, 0, 0, 0.4);
+	color: white;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 15px;
+}
+
+
+
+
+.card__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.card__body {
+  color: #374151;
+  line-height: 1.45;
+  max-width: 380px;
+}
+
+.card__cta {
+  margin-top: 12px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Responsive: se apilan en pantallas pequeñas */
+@media (max-width: 680px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+    max-width: 480px;
+  }
+
+  .card__image {
+    height: 220px;
+  }
+
+  .card__content {
+    padding: 20px;
+  }
+}
+
+.nosotros-section {
+  background:linear-gradient(135deg, #086fb4cf, #10ade1cb, #49af50d2); 
+  color: white; /* verde */
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap; /* permite que se acomode en mobile */
+}
+
+.container-sub{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* permite que se acomode en mobile */
+}
+
+.image-circle {
+  width: 300px;
+  height: 300px;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  overflow: hidden; /* para que la imagen se recorte al círculo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 250px;
+  color: white;
+}
+
+.text-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 700; /* Extra Bold */
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+/* ubicacion */
+
+
+.Ubi{
+  text-align: center;
+  margin-bottom: 10px;
+  color: #49af50;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 700; /* Extra Bold */
+  font-size: calc(1.375rem + 1.5vw);
+  padding: 10px;
+}
+
+ .map-container iframe {
+    width: 100%;
+    height: 450px;  /* Ajusta si deseas */
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+ /* footer */
+ /* Fondo degradado + onda */
+.header-wave {
+    position: relative;
+    background: linear-gradient(90deg, #40c3ff, #65c68a);
+    padding-top: 230px;    /* más espacio para el texto */
+    padding-bottom: 130px;
+    overflow: hidden;
+    color: white;
+}
+
+/* Onda superior */
+.header-wave .wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;    /* la onda debe ser más alta */
+    z-index: 1;
+
+    transform: scaleY(-1) translateY(-35px);  /* la pega EXACTO al borde */
+}
+
+.header-wave h2,
+.header-wave h5,
+.header-wave p {
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+
+.col-md-6 .redes {
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-circle {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+
+
+.col {
+	/* flex: auto;
+	width: 300px;
+	height: auto; */
+	margin: 12px;
+}
+
+.row {
+	padding: 12px;
+}
+
+
+#nintendo{
+	background: url(../img/bg-04.png);
+	background-color: rgb(255, 255, 219);
+	background-size: 40px 49px;
+}
+
+#footer{
+	background: url(../img/bg-04.png);
+	background-color: rgb(224, 144, 24);
+	background-size: 50px 50px;
+}
+
+@media screen and (max-width: 768px) {
+	.col-4 {
+		width: 100%;
+	}
+}
